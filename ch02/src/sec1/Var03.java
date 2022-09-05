@@ -16,5 +16,6 @@ public class Var03 {
 		char i='k';		//2byte(16bit) 
 		
 		String j="kim"; 
+		
 	}
 }
