@@ -1,0 +1,12 @@
+package sec3;
+
+public class Loop1 {
+	public static void main(String[] args) {
+		int[] data = {90,80,70,65,78,99,45,80,95,100}; //data[0]~data[9]
+		int tot=0;
+		for(int a=0;a<10;a++){
+			tot=tot+data[a];
+		}
+	}
+
+}

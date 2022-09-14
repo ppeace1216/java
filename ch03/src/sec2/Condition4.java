@@ -8,8 +8,8 @@ public class Condition4 {
 		//상품은 등급이 A이면 "100년 묵은 산삼", B이면 "한우갈비세트", C이면 "백화점 상품권", D이면 "츄파춥스", F는 "한입만"
 		Scanner sc = new Scanner(System.in);
 		System.out.println("점수 : ");
-		int jum = 84;
-		String grade = sc.next();
+		int jum = sc.nextInt();
+		String grade = "";	
 		if(jum>=90){
 			grade="A";
 		} else if(jum>=80){

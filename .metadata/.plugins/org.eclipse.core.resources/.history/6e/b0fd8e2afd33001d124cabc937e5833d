@@ -1,0 +1,22 @@
+package sec3;
+
+public class Loop3 {
+
+	public static void main(String[] args) {
+/*
+		반복변수=초기값;	①
+		do {
+			실행문장;	②
+			증감식;	③
+		} while(조건식);	④
+		
+ */
+		int a=10, tot=0;
+		do {
+			tot=tot+a;
+			a++;
+		} while(a<10);
+		System.out.println("a= "+a+",tot= "+tot);
+	}
+
+}
