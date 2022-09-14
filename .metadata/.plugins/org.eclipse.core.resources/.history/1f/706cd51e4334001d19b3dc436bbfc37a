@@ -31,11 +31,7 @@ public class Loop6 {
 		}
 		System.out.println("0~100까지의 홀수의 합계2 : "+tot);
 		
-		tot=0;
-		for(int i=3;i<=100;i+=3){
-			tot+=i;
-		}
-		System.out.println("3의 배수의 합 : "+tot);
+		
 
 	}
 
