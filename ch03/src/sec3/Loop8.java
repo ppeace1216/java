@@ -10,6 +10,16 @@ public class Loop8 {
  * .......................
  * 2*9=18	
  */
+		int a = 0;
+		int b = 0;
+		for(a=2;a<10;a++){
+			for(b=1;b<10;b++){
+				System.out.print(+a+" * "+b+" = "+a*b+"\t");
+			}
+			System.out.println();
+		}
+		
+			
 		
 	}
 
