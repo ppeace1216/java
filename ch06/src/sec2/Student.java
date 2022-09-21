@@ -13,14 +13,27 @@ public class Student {
 	}
 	
 	public int calcTot(){
-		return this.kor+this.eng+this.mat;
+		return kor+eng+mat;
 	}
-	//public double calcAvg(){
-	//	return calcTot/3;
-	//}
-	//public double calcHak(){
-	//	if(calcAvg>=90){
-			
-	//	}
-	//}
+	public double calcAvg(){
+		return calcTot()/3;		//(kor+eng+mat)/3;
+	}
+	public void calcHak(){		//public String calHak
+		if(calcAvg()>=90){
+			System.out.println("A");
+		}else if (calcAvg()>=80){
+			System.out.println("B");
+		}else if(calcAvg()>=70){
+			System.out.println("C");
+		}else {
+			System.out.println("D");
+		}
+	}
+	public void calcRes(){
+		if(calcAvg()>=80){
+			System.out.println("합격");
+		}else{
+			System.out.println("불합격");
+		}
+	}
 }

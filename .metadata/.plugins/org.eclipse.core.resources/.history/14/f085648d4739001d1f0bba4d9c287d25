@@ -1,0 +1,8 @@
+package sec2;
+
+public class Account {
+	String number;
+	String owner;
+	int balance;
+	int money;
+}

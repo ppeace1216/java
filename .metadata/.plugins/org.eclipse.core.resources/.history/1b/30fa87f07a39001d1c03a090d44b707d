@@ -1,0 +1,10 @@
+package sec2;
+
+public class Board {
+	private int number;
+	private String title;
+	private String contents;
+	private String writer;
+	private String date;
+	
+}
