@@ -30,6 +30,22 @@ public class Account1 {
 	public void setMoney(int money) {
 		this.money = money;
 	}
-	
-	
+	public void runDeposit(int money){
+		this.balance+=money;
+	}
+	public void runWithdraw(int money){
+		if(this.balance-money>0){
+			this.balance-=money;	
+		} else {
+			System.out.println("잔액 부족 - 출금액이 잔액을 초과합니다.");
+		}
+	}
+	public int runBlance(){
+		return balance;
+	}
+	public void printAccount(){
+		System.out.println("계좌번호 : "+account);
+		System.out.println("예금주 : "+owner);
+		System.out.println("잔액 : "+balance);
+	}
 }

@@ -1,5 +1,4 @@
 package sec2;
-
 public class Product {
 	private String pid;
 	private String pname;
@@ -63,12 +62,14 @@ public class Product {
 		}
 		return rank;
 	}
+	//	if(price>=100000) return "고가";
+	//	else if(price>=50000) return "중저가";
+	//	else return ="저가";
+	
 	public void printImg(){
-		System.out.println(img);
+		System.out.println("이미지 : "+img);
 	}
 	public void printProduct(){
-		System.out.println("아이디 : "+pid+"\n제품명 : "+pname+"\n제품수량 : "+amount+"\n제품가격 : "+price+"\n제품이미지 : "+img);
+		System.out.println("제품아이디 : "+pid+"\n제품명 : "+pname+"\n제품수량 : "+amount+"\n제품가격 : "+price+"\n제품이미지 : "+img);
 	}
-	
-	
 }

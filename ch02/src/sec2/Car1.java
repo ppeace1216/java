@@ -17,6 +17,12 @@ public class Car1 {
 		e = b;
 		/* e는 65538 */
 		f = a + c;
+		a = (int) (f + c);
+
+		System.out.println(c);
+		System.out.println(f);
+		System.out.println(a);
+		
 	}
 
 }
