@@ -1,0 +1,10 @@
+package sec1;
+
+public class Child2 extends Parent{
+	int field3;
+	String field4;
+	
+	public void method3(){}
+	public int method4(){ return field1+100; }
+	
+}
