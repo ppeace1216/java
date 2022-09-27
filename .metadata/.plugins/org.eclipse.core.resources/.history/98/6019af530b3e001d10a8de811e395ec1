@@ -1,0 +1,16 @@
+package sec3;
+
+public class Taxi extends Car{
+
+	@Override
+	public int run() {
+		return super.run();
+	}
+
+	@Override
+	public void stop() {
+		super.stop();
+	}
+
+	
+}
