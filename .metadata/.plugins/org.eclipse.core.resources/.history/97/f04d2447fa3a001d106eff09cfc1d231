@@ -1,9 +1,0 @@
-package sec4;
-
-public class Member {
-	private String name;	//멤버 필드(Field = Attribute = Property)
-	
-	public Member(String name){}
-	
-	public void setName(String name){}
-}

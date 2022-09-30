@@ -1,5 +1,0 @@
-package sec3.contents;
-//sec3 상위패키지, contests 하위 패키지	- 패키지 안에 패키지
-public class Test1 {
-
-}

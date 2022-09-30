@@ -1,0 +1,23 @@
+package sec3;
+
+public class MySqlDao implements DataAcccessObject{
+	@Override
+	public void select() {
+
+	}
+
+	@Override
+	public void insert() {
+	
+	}
+
+	@Override
+	public void update() {
+
+	}
+
+	@Override
+	public void delete() {
+
+	}
+}
