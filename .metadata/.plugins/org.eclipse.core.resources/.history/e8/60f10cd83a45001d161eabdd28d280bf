@@ -1,0 +1,13 @@
+package sec2;
+
+import sec1.ThreadWithRunnable;
+
+public class ThreadExample {
+	public static void main(String[] args) {
+		Thread thread1 = new MovieThread();
+		Thread1.start();
+		
+		Thread thread2 = new Thread(new MusicRunnable());
+		thread2.start();
+	}
+}

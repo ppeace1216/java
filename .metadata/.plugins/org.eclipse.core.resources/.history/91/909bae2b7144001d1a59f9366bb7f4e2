@@ -1,0 +1,18 @@
+package sec1;
+
+public class ThreadEx2 {
+
+	public static void main(String[] args) {
+		Thread th0 = new Thread (new ThreadWithRunnable());
+		ThreadWithClass th1 = new ThreadWithClass();
+		//쓰레드의 우선순위 변경
+		th1.setPriority(10);
+		
+		th0.start();
+		th1.start();
+		
+		
+
+	}
+
+}

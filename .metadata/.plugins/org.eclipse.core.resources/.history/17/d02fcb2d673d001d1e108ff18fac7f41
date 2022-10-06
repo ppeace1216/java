@@ -1,6 +1,0 @@
-package sec2;
-
-public class CellPhone {
-	final static String COMPANY="삼성";
-	
-}

@@ -1,8 +1,0 @@
-package sec3;
-
-public interface DataAcccessObject {
-	void.select();
-	void.insert();
-	void.update();
-	void.delete();
-}

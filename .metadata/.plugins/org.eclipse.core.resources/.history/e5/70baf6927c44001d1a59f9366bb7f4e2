@@ -1,0 +1,24 @@
+package sec1;
+public class ClassEx0 {
+	public static void main(String[] args) {
+		Generic<Student> s1 = new Generic<Student>();
+		
+	}
+}
+class Generic<T>{	//T는 무엇이든 될 수 이씅ㅁ
+	T a;			//일반화(General)=범용화 과정을 거쳐 어떤 객체든지 활용할 수 있는 공용 데이터타입을 만드는 과정
+}
+class Member {
+	General g;		//필요한 멤버나 객체를 모두 선언을 해야만 활용할 수 있다.
+	Student s;
+	Salary s2;
+}
+class General {
+	
+}
+class Student {
+	
+}
+class Salary {
+	
+}
