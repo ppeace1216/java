@@ -19,7 +19,7 @@ interface Calc4 {		//매개변수 O 리턴O - Operator
 
 public class Lambda2 {
 	public static void main(String[] args) {
-	 //인터페이스명 객체명  = (매개변수) -> 리터값
+	 //인터페이스명 객체명  = (매개변수) -> 리턴값
 		Calc4 max = (x, y) -> x>y ? x : y;		//구현체 등록
 		int data = max.method4(20, 18);
 		System.out.println("최대값 : "+data);

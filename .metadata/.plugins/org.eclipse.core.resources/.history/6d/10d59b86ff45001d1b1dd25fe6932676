@@ -1,0 +1,19 @@
+package sec2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListEx1 {
+
+	public static void main(String[] args) {
+		List<String> lst1 = new ArrayList<String>();
+		lst1.add("박평화");
+		lst1.add("박지우");
+		lst1.add("이도희");
+		System.out.println(lst1);
+		if(lst1.contains("권지혜")){
+			System.out.println("해당 데이터가 존재합니다.");
+		}
+	}
+
+}
